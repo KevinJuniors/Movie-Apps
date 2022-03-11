@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vanilla.js [click-Counter]</title>
+</head>
+<body>
+    <!-- HTML Element 생성 -->
+    <!-- <span>합계 : 0</span>
+        <br><br>
+    <button id="btn">click-Button</button> -->
+    
+    <script type="text/babel">
+        let counter = 0;
+
+        function countUp() {
+            counter = counter + 1;c
+        }
+
+        const Container = () => (
+            <div>
+                <h3>합계 : {counter}</h3>
+                <button onClick={countUp}>Click Me</button>
+            </div>
+        );
+
+        ReactDOM.render(<Container />, root);
+    </script>
+    <!-- <script type="text/babel" src="js/Counters.js"></script> -->
+</body>
+</html>
