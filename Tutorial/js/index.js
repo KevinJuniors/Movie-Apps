@@ -1,22 +1,21 @@
-// import React from "react";
-// import ReactDOM from "react-dom";
-
-const root = document.getElementById("root");
-
 function App() {
-    const [counter, modifier] = React.useState(0);
+    const [counter, setCounter] = React.useState(0);
     
     const onClick = () => {
-        modifier(100);
-        counter = 100;
+        setCounter(counter + 1);
+        // setCounter((current) => current + 1);
     }
+
+    console.log(counter);
+    // console.log(current);
 
     return (
         <div>
             <h3>합계 : {counter}</h3>
-            <button>Push</button>
+            <button onClick={onClick}>Call</button>
         </div>
     )
 }
 
+const root = document.getElementById("root");
 ReactDOM.render(<App />, root);
