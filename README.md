@@ -1,11 +1,5 @@
-## Movie-Apps 소개글   
-노마드코더 React 기초 강의 학습 코딩 Github 저장소입니다.
+## 소개   
+노마드 코더 React를 활용하여 영화 웹 사이트 만들기 강좌를 바탕으로 구현하는 React 학습 프로젝트입니다..   
 
-## 업데이트 일지
-[2022-03-07] Vanilla.js Click Event 예제 업로드   
-[2022-03-08] JSX 문법 실습   
-[2022-03-11] set State 실습   
-[2022-03-12] set State 응용예제   
-React - useStact를 활용한 시간 단위 변환기 구현 시작   
-[2022-03-15] set State 응용예제   
-React - useStact를 활용한 시간 단위 변환기 구현 완료   
+## 업데이트 노트   
+{2022-04-25} React 개발 환경 세팅
